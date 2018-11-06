@@ -1,0 +1,49 @@
+	body{
+		padding-top: 70px;
+	}
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    .row.content {height: 960px}
+    .sidenav {
+      padding-top: 20px;
+      background-color: #e0e2e6;
+      height: 100%;
+    }
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+    a{
+    	color: gray;
+    	font-weight: bold;
+    }
+    .affix {
+      top: 0;
+      width: 100%;
+      z-index: 9999 !important;
+  	}
+  		.affix + .container-fluid {
+      	padding-top: 70px;
+ 	}
+	.border-sach{
+		border:1px solid #CD1F25;
+		background-color: #c2c1d6;
+		padding: 1.5%;
+		text-align: center;
+		position: relative;
+	}
+	.card-body {
+    	height: 60px;
+    	padding-left: 10px;
+    	border-bottom:1px solid #CD1F25;
+	}
